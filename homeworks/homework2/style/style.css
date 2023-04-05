@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/homeworks/homework2/media/backgr_l.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+    }
+#ln1 a:link, #ln1 a:visited  {
+    text-decoration: none;
+    color: blue;
+}
+#ln1 a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+#ln2  a:link, #ln2 a:visited {
+    text-decoration:underline;
+    color: red;
+}
+#ln2 a:hover{
+    color: blue;
+    text-decoration:line-through;
+}
+
+#ln3  a:link, #ln3 a:visited {
+    text-decoration:none;
+    color: black;
+}
+#ln3 a:hover{
+    color: red;
+    text-decoration: overline;
+}
+
+p, h2{
+    padding: 20px 5px 5px 20px;
+}
+
+ul{
+    padding-left: 20px;
+    margin-left: 40px;
+}
+
+table{
+    margin-left: 40px;
+    border: 2px solid gray;
+}
+
+th, td{
+    border: 1px solid rgb(83, 83, 83);
+    padding: 5px;
+}
+
+.imgFlag{
+    width: 30px;
+    height: 20px;
+}
