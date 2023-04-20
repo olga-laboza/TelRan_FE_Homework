@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.parent{
+    background-color: lightgreen;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 5px auto;
+    position: relative;
+}
+
+.square1, .square2 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute;
+    top: 70px;
+}
+
+.square1{       
+    left: 100px;   
+    }
+
+ .square2{       
+    right: 100px;
+    }
+
+.square3{       
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 220px;
+    left: 215px;   
+    }
+
+.square4{       
+    background-color: white;
+    width: 180px;
+    height: 20px;
+    position: absolute;
+    top: 370px;
+    left: 160px;   
+    }
+
+    
+
+
+

@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.square1, .square2, .square3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    }
+
+.square1{
+    background-color:coral;
+    top: 30px;
+    left: 30px;
+    z-index: 2;             /*task 7*/
+    }
+
+.square2{
+    background-color:  cornflowerblue;
+    top: 60px;
+    left: 60px;
+    z-index: 1;        /*task 5, 7*/
+   /* z-index: -1;  */      /*task 6*/
+   
+    }
+
+.square3{
+    background-color:aquamarine;
+    top: 90px;
+    left: 90px;
+    }
+
+
+

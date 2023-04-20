@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.parent{
+    width: 600px;
+    border: 2px solid palevioletred;
+    border-radius: 20px 20px 0px 0px;
+    margin: 5px auto 70px auto;
+    padding: 20px;
+    position: relative;
+}
+h1{
+    color: palevioletred;
+    margin-bottom: 15px;
+}
+p{
+    color: maroon;
+    padding: 5px;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(207, 65, 113);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-top: 1px solid maroon;
+    position: fixed;
+    bottom: 0;
+}

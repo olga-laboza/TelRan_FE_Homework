@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.parent{
+    width: 600px;
+    border: 2px solid rgb(129, 196, 6);
+    margin: 70px auto 5px auto;
+    padding: 20px;
+    position: relative;
+}
+
+p{
+    color:rgb(53, 52, 52);
+    padding: 5px;
+}
+.header{
+    width: 100%;
+    background-color: rgb(129, 196, 6);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid rgb(77, 117, 3);
+    position: fixed;
+    top: 0;
+}

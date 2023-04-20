@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.parent{
+    border: 2px solid green;
+    width: 500px;
+    height: 400px;
+    margin: 5px auto;
+}
+.square1{
+    border: 1px solid red;
+    position:relative;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;   
+    }
+

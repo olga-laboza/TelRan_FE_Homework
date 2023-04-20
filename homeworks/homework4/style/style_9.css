@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.parent{
+    background-color: lightgreen;
+    width: 500px;
+    height: 400px;
+    margin: 5px auto;
+    position: relative;
+}
+
+.square1, .square2 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+}
+
+.square1{       
+    top: 50px;
+    left: 50px;   
+    }
+
+ .square2{       
+    right: 50px;
+    bottom: 50px;
+    }
+
+    
+
+
+
